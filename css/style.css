@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #dae6f2;
+}
+ul {
+    width: 2000px;
+}
+ul > li {
+    list-style: none;
+    float: left;
+}
+ul > li > img {
+    width: 400px;
+    height: 300px;
+}
+.carousel {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel > div {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid teal;
+}
