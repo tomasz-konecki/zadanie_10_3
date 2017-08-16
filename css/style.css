@@ -7,7 +7,7 @@ body {
   background: #dae6f2; }
 
 ul {
-  width: calc(400px*2); }
+  width: 800px; }
   ul li {
     list-style: none;
     float: left; }
