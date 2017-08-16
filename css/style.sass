@@ -1,0 +1,33 @@
+$imgWidth: 400px
+$imgHeight: 300px
+
+=flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  background: #dae6f2
+
+ul
+  width: calc(#{$imgWidth}*2)
+  li
+    list-style: none
+    float: left
+    img
+      width: $imgWidth
+      height: $imgHeight
+
+.carousel
+  height: 100vh
+  +flex-center
+  div
+    width: $imgWidth
+    height: $imgHeight
+    overflow: hidden
+    border: 2px solid teal
